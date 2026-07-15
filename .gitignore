@@ -1,0 +1,9 @@
+.env
+config.yaml
+latest_notices.json
+bizinfo_notice_latest.html
+bizinfo_notice_*.html
+__pycache__/
+*.pyc
+.venv/
+.latest_run.log

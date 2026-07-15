@@ -1,0 +1,27 @@
+bizinfo:
+  api_url: "https://www.bizinfo.go.kr/uss/rss/bizinfoApi.do"
+
+  crtfc_key: ""
+
+  data_type: "json"
+
+  max_pages: 10
+
+  categories:
+    - name: "기술"
+      code: "02"
+    - name: "창업"
+      code: "06"
+    - name: "기타"
+      code: "09"
+
+  params:
+    searchCnt: 20
+    pageUnit: 20
+    pageIndex: 1
+
+  active_only: true
+
+state:
+  seen_file: "seen_notice_ids.json"
+  latest_file: "latest_notices.json"
